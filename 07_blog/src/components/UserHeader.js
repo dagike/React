@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { fetchUser } from "../actions";
 
 class UserHeader extends Component {
   render() {
@@ -19,7 +18,4 @@ const mapStateToProps = (state, ownProps) => {
   };
 };
 
-export default connect(
-  mapStateToProps,
-  { fetchUser }
-)(UserHeader);
+export default connect(mapStateToProps)(UserHeader);
