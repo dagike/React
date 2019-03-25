@@ -1,3 +1,3 @@
-#JSX
+# JSX
 
 Beginning of JSX basics

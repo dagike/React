@@ -1,4 +1,4 @@
-#Components
+# Components
 
 Understanding React Component with different types
 

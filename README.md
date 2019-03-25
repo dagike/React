@@ -1,3 +1,3 @@
-#React
+# React
 
 Various projects learning React
