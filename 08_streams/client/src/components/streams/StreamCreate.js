@@ -69,6 +69,6 @@ const formWrapped = reduxForm({
 })(StreamCreate);
 
 export default connect(
-  null,
+  mapStateToProps,
   { createStream }
 )(formWrapped);
