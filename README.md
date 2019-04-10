@@ -2,7 +2,7 @@
 
 Various projects learning React
 
-Using:
+Packages
 
 - React
 - React Ref
@@ -11,10 +11,15 @@ Using:
 - Axios
 - Lodash
 - Faker
-- Google OAuth
+- Redux Form
 
 APIs
 
 - YouTube
 - Unslapsh
 - jsonPlaceholder
+- Google OAuth
+
+CSS
+
+- Semantic UI
