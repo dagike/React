@@ -3,7 +3,14 @@
     {
       "description": "asd",
       "title": "asd",
+      "userId": "101065594780813704811",
       "id": 1
+    },
+    {
+      "title": "I created this Stream",
+      "description": "This was made by me!",
+      "userId": "101065594780817704811",
+      "id": 2
     }
   ]
 }

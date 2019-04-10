@@ -61,14 +61,12 @@ const validate = formValues => {
   return errors;
 };
 
-const mapStateToProps = {};
-
 const formWrapped = reduxForm({
   form: "CREATE_STREAM",
   validate
 })(StreamCreate);
 
 export default connect(
-  mapStateToProps,
+  null,
   { createStream }
 )(formWrapped);
