@@ -12,6 +12,7 @@ Packages
 - Lodash
 - Faker
 - Redux Form
+- JSON Server
 
 APIs
 
