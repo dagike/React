@@ -12,6 +12,9 @@ Packages
 - Lodash
 - Faker
 - Redux Form
+- JSON Server
+- ReactDOM Portals
+- React Fragment
 
 APIs
 
