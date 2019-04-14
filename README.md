@@ -14,7 +14,7 @@ Packages
 - Redux Form
 - JSON Server
 - ReactDOM Portals
-- React Fragments
+- React Fragment
 
 APIs
 
