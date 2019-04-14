@@ -13,6 +13,8 @@ Packages
 - Faker
 - Redux Form
 - JSON Server
+- ReactDOM Portals
+- React Fragments
 
 APIs
 
