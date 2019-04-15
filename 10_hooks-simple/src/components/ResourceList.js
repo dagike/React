@@ -4,14 +4,18 @@ import jsonPlaceholder from "../api/jsonPlaceholder";
 export default ({ resource }) => {
   const [resources, setResources] = useState([]);
 
-  const getResource = async resource => {
-    const res = await jsonPlaceholder.get(`/${resource}`);
-    setResources(res.data);
-  };
-
   useEffect(() => {
-    getResource(resource);
+    (async resource => {
+      const res = await jsonPlaceholder.get(`/${resource}`);
+      setResources(res.data);
+    })(resource);
   }, [resource]);
 
-  return <div>{resources.length}</div>;
+  return (
+    <ul>
+      {resources.map(item => (
+        <li key={item.id}>{item.title}</li>
+      ))}
+    </ul>
+  );
 };
