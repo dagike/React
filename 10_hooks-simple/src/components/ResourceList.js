@@ -11,7 +11,7 @@ export default ({ resource }) => {
 
   useEffect(() => {
     getResource(resource);
-  }, []);
+  }, [resource]);
 
   return <div>{resources.length}</div>;
 };
