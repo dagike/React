@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import jsonPlaceholder from "../api/jsonPlaceholder";
 
-export default ({ resource }) => {
+const useResources = resource => {
   const [resources, setResources] = useState([]);
 
   useEffect(() => {
@@ -10,6 +10,12 @@ export default ({ resource }) => {
       setResources(res.data);
     })(resource);
   }, [resource]);
+
+  return resources;
+};
+
+export default ({ resource }) => {
+  const resources = useResources(resource);
 
   return (
     <ul>
